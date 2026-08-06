@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/"
+
+[[mods]]
+modId="faro"
+version="0.0.1"
+displayName="Faro"
+logoFile="faro_logo.png"
+authors="MAGMAX"
+description='''
+Faro es un companion de diagnostico para modpacks de Minecraft Forge.
+Hecho por MAGMAX.
+
+Que hace:
+  - Muestra cuantos mods cargaron y cuales quedaron en la carpeta sin cargar.
+  - Lee el crash report mas reciente y explica en castellano simple que paso
+    y, cuando se puede saber, que mod lo causo.
+  - Vigila latest.log mientras jugas y avisa con un cartel chico si aparecen
+    errores nuevos.
+  - Si identifico un culpable claro, ofrece desactivarlo moviendo su .jar a
+    mods/deshabilitados_por_faro/. Nada se borra y todo queda anotado.
+
+Que NO hace:
+  Faro no repara mods rotos ni resuelve incompatibilidades. Ningun programa
+  puede hacer eso de forma generica: cada crash tiene una causa distinta.
+  Cuando los datos no alcanzan para senalar un culpable, Faro lo dice y te
+  manda al log, en vez de inventar un diagnostico.
+'''
+
+[[mixins]]
+    config="faro.mixins.json"
+
+[[dependencies.faro]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.faro]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,16 @@
+{
+  "key.categories.faro": "Faro",
+  "key.faro.abrir": "Open diagnostics",
+  "key.faro.overlay": "Toggle on-screen notice",
+  "key.faro.liberar_mouse": "Release cursor (to click notices)",
+
+  "faro.titulo": "Faro",
+  "faro.subtitulo": "modpack diagnostics",
+  "faro.analizando": "Analyzing…",
+  "faro.boton.reparar": "Try to repair",
+  "faro.boton.sin_causa": "No clear cause to repair",
+  "faro.boton.detalle": "Technical details",
+  "faro.boton.logs": "Open logs folder",
+  "faro.boton.reanalizar": "Re-analyze",
+  "faro.boton.cerrar": "Close"
+}

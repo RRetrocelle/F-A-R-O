@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "com.coco.faro.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinPantallaErrorCarga"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "com.coco.faro.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinTiempoDeCarga",
+    "MixinTamanoNbt",
+    "MixinGeneracionMundo"
+  ],
+  "client": [
+    "MixinPantallaErrorCarga",
+    "MixinTraficoDeMods",
+    "MixinSuavizadoEntidades"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: faro
+Specification-Vendor: MAGMAX
+Specification-Version: 1
+Implementation-Title: Faro
+Implementation-Version: 0.0.1
+Implementation-Vendor: MAGMAX
+

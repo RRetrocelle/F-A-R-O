@@ -1,0 +1,16 @@
+{
+  "key.categories.faro": "Faro",
+  "key.faro.abrir": "Abrir diagnostico",
+  "key.faro.overlay": "Alternar aviso en pantalla",
+  "key.faro.liberar_mouse": "Liberar el cursor (para clickear avisos)",
+
+  "faro.titulo": "Faro",
+  "faro.subtitulo": "diagnostico del modpack",
+  "faro.analizando": "Analizando…",
+  "faro.boton.reparar": "Intentar reparar",
+  "faro.boton.sin_causa": "Sin causa clara que reparar",
+  "faro.boton.detalle": "Ver detalle tecnico",
+  "faro.boton.logs": "Abrir carpeta de logs",
+  "faro.boton.reanalizar": "Volver a analizar",
+  "faro.boton.cerrar": "Cerrar"
+}
